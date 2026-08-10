@@ -1,0 +1,7 @@
+.venv
+sql_database
+sql_orm_test.py
+gitignore
+test.py
+Archive
+ShopList.db

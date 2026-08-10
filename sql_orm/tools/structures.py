@@ -1,0 +1,6 @@
+
+
+
+
+class QueryDict(dict):
+    pass

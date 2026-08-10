@@ -1,0 +1,21 @@
+#:kivy 2.0.0
+
+<ShopListScreen>:
+    MDScrollView:
+
+        MDBoxLayout:
+            id: container
+            orientation: "vertical"
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            size_hint: 0.8, 0.4
+            spacing: "20dp"
+
+            MDLabel:
+                text: "Главный экран"
+                halign: "center"
+                font_style: "H4"
+
+            MDRaisedButton:
+                text: "Перейти в настройки"
+                pos_hint: {"center_x": 0.5}
+                on_release: root.go_to_settings()
